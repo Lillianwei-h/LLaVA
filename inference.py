@@ -7,7 +7,7 @@ from mydata import get_data, decode_answer
 import os
 
 DATA_PATH  = "../../data/ManytoMany_all"
-model_path = "liuhaotian/llava-v1.5-7b"
+model_path = "liuhaotian/llava-v1.6-34b"
 tokenizer, model, image_processor, context_len = load_pretrained_model(
     model_path=model_path,
     model_base=None,
